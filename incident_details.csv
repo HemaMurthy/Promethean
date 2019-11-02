@@ -1,0 +1,11 @@
+id,promethean_device_id,end_customer_id,incident_name,incident_type,description,priority,threshold_time,threshold_count,threshold_time_units,created_by,created_on,updated_by,updated_on
+1,2,2,"AC Voltage if turned OFF Often","Milk Temperature over 6,but no AC",Site,High,9,7,Days,test,"2019-10-30 00:14:50",NULL,"0000-00-00 00:00:00"
+2,2,2,"Pattern of Discharge pump going OFF","Milk Temperature over 6,but discharge pump OFF","System ",High,1,1,Days,test,"2019-10-30 00:15:25",NULL,"0000-00-00 00:00:00"
+3,2,2,"Pattern of Tank Switch being turned OFF","Milk present but Tank Switch OFF",System,Critical,3,7,Days,test,"2019-10-30 00:15:41",NULL,"0000-00-00 00:00:00"
+4,2,2,"Pattern of not enough cooling","Milk present but cooling hasnt began",System,Critical,1,1,Days,test,"2019-10-30 00:15:56",NULL,"0000-00-00 00:00:00"
+5,2,2,"Pattern of Tank switch being ON when not required","No Milk but Tank Switch is ON",System,High,2,7,Days,test,"2019-10-30 00:16:17",NULL,"0000-00-00 00:00:00"
+6,2,2,"Tank Switch ON more than 3 hours","No Milk but Tank Switch is ON for more than 3 hours",System,Critical,1,1,Days,test,"0000-00-00 00:00:00",NULL,"0000-00-00 00:00:00"
+7,2,2,"Cyclic mode is going OFF when it should not be","Milk temperature in safe range but Agitator Cyclic mode off",System,Critical,1,1,Days,test,"2019-10-30 00:17:00",NULL,"0000-00-00 00:00:00"
+8,2,2,"Agitator ON for too long","Avgerage time for Agitator to get into ACM is longer",System,Pattern,1,1,Days,test,"2019-09-26 13:50:25",NULL,"0000-00-00 00:00:00"
+9,2,2,"Charging TSS is taking longer than normal","Avgerage time for TSS to charge is long",System,Pattern,1,1,Days,test,"2019-10-30 00:17:26",NULL,"0000-00-00 00:00:00"
+10,2,2,"Tank switch ON during milk lift","Tank switch and agitator ON during milk lift",System,Critical,3,7,Days,test,"0000-00-00 00:00:00",NULL,"0000-00-00 00:00:00"
